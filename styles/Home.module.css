@@ -1,0 +1,396 @@
+.main {
+    transition: all .4s;
+    background-color: black;
+}
+
+/* main.main > img:first-of-type {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    margin-bottom: -5px;
+    top: calc(50vh);
+    filter: hue-rotate(0deg);
+} */
+
+main.main > img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: -5px;
+    top: calc(55vh);
+    left: 0px;
+    filter: hue-rotate(0deg);
+}
+
+main.main > img:last-of-type {
+    position: absolute;
+    top: calc(55vh);
+    /* left: 0px; */
+    z-index: 4;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.landingpage {
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: black;
+}
+
+div.landingpage > p {
+    font-size: 25px;
+    color: white;
+    margin: 0 0;
+    padding-left: 15.5vw;
+    padding-bottom: 20px;
+    padding-top: 20vh;
+    transition: all .2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+div.landingpage > h1 {
+    font-size: 14vw;
+    color: white;
+    margin: 0 0;
+    animation: fadein 4s;
+    position: absolute;
+    top: calc(20vh + 40px);
+    left: 16%;
+    transform: translate(-50%, 0px);
+    z-index: 2;
+}
+
+.about {
+    position: relative;
+    z-index: 3;
+    min-height: 800px;
+    padding: 0 20%;
+    margin-top: calc(35vh + 100% * .26837 - 47px);
+    padding-bottom: 50px;
+    transition: all .4s;
+    color: white;
+}
+
+.about > div {
+    overflow: hidden;
+}
+
+.about > div {
+    overflow: hidden;
+}
+
+#abouttxtwrap {
+    float: left;
+}
+
+#abouttxt {
+    padding-left: 6.5vw;
+}
+
+#aboutimgwrap {
+    padding-right: 10%;
+    float: right;
+}
+
+#aboutimg {
+    width: 245px;
+    margin-top: 42px;
+    border-radius: 4px;
+}
+
+div.about > div > div > h1 {
+    margin-bottom: 100px;
+}
+
+div.about > div > div > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.about > div > p {
+    padding: 40px 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects {
+    min-height: 1200px;
+    padding: 0 20%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    transition: all .4s;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.projects > h1 {
+    margin-bottom: 100px;
+}
+
+.projleft {
+    padding: 40px 10%;
+    overflow: hidden;
+}
+
+div.projleft > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    float: left;
+    object-fit: cover;
+}
+
+div.projleft > p {
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 7px;
+    width: calc(100% - 350px);
+    margin-top: 0;
+}
+
+div.projleft > p:first-of-type {
+    margin-top: 40px;
+}
+
+div.projleft > p:last-of-type {
+    margin-top: 20px;
+}
+
+.projright {
+    padding: 40px 10%;
+    overflow: hidden;
+}
+
+div.projright > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    object-fit: cover;
+    float: right;
+}
+
+div.projright > p {
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 7px;
+    width: calc(100% - 350px);
+    margin-top: 0;
+}
+
+div.projright > p:first-of-type {
+    margin-top: 40px;
+}
+
+div.projright > p:last-of-type {
+    margin-top: 20px;
+}
+
+.work {
+    min-height: 1200px;
+    padding: 0 20%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    transition: all .4s;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.work > h1 {
+    margin-bottom: 100px;
+}
+
+.contact {
+    min-height: 800px;
+    padding: 0 20%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    transition: all .4s;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.contact > h1 {
+    margin-bottom: 100px;
+}
+
+div.contact > div {
+    height: 381px;
+    padding-left: 10%;
+}
+
+div.contact > div > p > a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1835px) {
+    div.about > div > p {
+        padding: 30px 0;
+    }
+    .projright {
+        padding: 40px 0;
+    }
+    .projleft {
+        padding: 40px 0;
+    }
+    div.contact > div {
+        padding-left: 0;
+    }
+    #aboutimgwrap {
+        padding-right: 0;
+    }
+    #abouttxt {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .about {
+        padding: 0 10%;
+        padding-top: 100px;
+    }
+    .projects {
+        padding: 0 10%;
+        padding-top: 100px;
+    }
+    .work {
+        padding: 0 10%;
+        padding-top: 100px;
+    }
+    .contact {
+        padding: 0 10%;
+        padding-top: 100px;
+    }
+
+    div.landingpage > p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    div.landingpage > h1 {
+        font-size: 18vw;
+        left: 6%;
+        top: calc(20vh + 10px);
+    }
+    div.landingpage > p {
+        font-size: 14px;
+        padding-left: 6%;
+        padding-top: calc(15vh + 20px);
+    }
+
+    #abouttxtwrap {
+        float: none;
+    }
+    #abouttxt {
+        padding-left: 0;
+        text-align: center;
+    }
+    #aboutimgwrap {
+        padding-right: 0;
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #aboutimg {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+    div.about > div > div > h1 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    div.projleft > img {
+        width: 200px;
+        height: 200px;
+        float: none;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+    }
+    div.projleft > p {
+        margin-left: 0px;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.projright > img {
+        width: 200px;
+        height: 200px;
+        float: none;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+    }
+    div.projright > p {
+        margin-right: 0px;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.contact > div {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    div.about > div > div > h1 {
+        margin-bottom: 50px;
+    }
+    div.projects > h1 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    div.work > h1 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    div.contact > h1 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about {
+        padding: 0 2%;
+        padding-top: 100px;
+        margin-top: calc(35vh + 100% * .26837 - 35px);
+    }
+    .projects {
+        padding: 0 2%;
+        padding-top: 100px;
+    }
+    .work {
+        padding: 0 2%;
+        padding-top: 100px;
+    }
+    .contact {
+        padding: 0 2%;
+        padding-top: 100px;
+    }
+
+    div.about > div > div > h1 {
+        font-size: 18vw;
+    }
+    div.projects > h1 {
+        font-size: 18vw;
+    }
+    div.work > h1 {
+        font-size: 18vw;
+    }
+    div.contact > h1 {
+        font-size: 18vw;
+    }
+}
