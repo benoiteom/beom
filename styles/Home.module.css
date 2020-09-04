@@ -71,7 +71,7 @@ div.landingpage > h1 {
 
 .about {
     position: relative;
-    z-index: 3;
+    z-index: 10;
     min-height: 800px;
     padding: 0 20%;
     margin-top: calc(35vh + 100% * .26837 - 47px);
@@ -142,10 +142,8 @@ div.projects > h1 {
 
 div.projleft > img {
     width: 300px;
-    height: 300px;
     border-radius: 4px;
     float: left;
-    object-fit: cover;
 }
 
 div.projleft > p {
@@ -171,9 +169,7 @@ div.projleft > p:last-of-type {
 
 div.projright > img {
     width: 300px;
-    height: 300px;
     border-radius: 4px;
-    object-fit: cover;
     float: right;
 }
 
@@ -191,6 +187,10 @@ div.projright > p:first-of-type {
 
 div.projright > p:last-of-type {
     margin-top: 20px;
+}
+
+.musroverimg {
+    margin: 30px 0;
 }
 
 .work {
@@ -312,9 +312,7 @@ div.contact > div > p > a:hover {
 
     div.projleft > img {
         width: 200px;
-        height: 200px;
         float: none;
-        object-fit: cover;
         display: block;
         margin: 0 auto;
     }
@@ -327,9 +325,7 @@ div.contact > div > p > a:hover {
 
     div.projright > img {
         width: 200px;
-        height: 200px;
         float: none;
-        object-fit: cover;
         display: block;
         margin: 0 auto;
     }

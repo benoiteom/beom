@@ -140,7 +140,7 @@ export default class Home extends Component {
 							<p>A startup I cofounded with a friend of mine. We rent the latest and hypest sneakers to give people access to the best sneakers without the price tag.</p>
 						</div>
 						<div className={styles.projright}>
-							<img src="/MusRover.png" alt='MusRover' id="musroverimg" />
+							<img src="/MusRover.png" alt='MusRover' id="musroverimg" className={styles.musroverimg} />
 							<p><b>MUS-ROVER</b></p>
 							<p><b>Undergraduate Researcher, Fronted Dev, Design</b></p>
 							<p><b>Dec 2018 - June 2020</b></p>
