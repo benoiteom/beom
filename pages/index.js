@@ -114,7 +114,7 @@ export default class Home extends Component {
 					<div className={styles.about} style={this.state.bgcolor}>
 						<div>
 							<div id={styles.abouttxtwrap}>
-								<h1>WHO AM I</h1>
+								<h1>BEGIN</h1>
 								<p id={styles.abouttxt}>Benoit Ortalo-Magne</p>
 								<p id={styles.abouttxt}>Senior in Computer Engineering</p>
 							</div>
@@ -131,7 +131,7 @@ export default class Home extends Component {
 						</div>
 					</div>
 					<div className={styles.projects} style={this.state.bgcolor}>
-						<h1>PROJECTS</h1>
+						<h1>PERSONAL</h1>
 						<div className={styles.projleft}>
 							<img src="/Teneez.png" alt='Teneez' id="teneezimg" />
 							<p><b>TENEEZ</b></p>
@@ -148,7 +148,7 @@ export default class Home extends Component {
 						</div>
 					</div>
 					<div className={styles.work} style={this.state.bgcolor}>
-						<h1>WORK</h1>
+						<h1>CAREER</h1>
 						<div className={styles.projleft}>
 							<img src="/Oculo.png" alt='Oculo' id="oculoimg" />
 							<p><b>OCULO</b></p>
@@ -165,8 +165,11 @@ export default class Home extends Component {
 						</div>
 					</div>
 					<div className={styles.contact} style={this.state.bgcolor}>
-						<h1>CONTACT</h1>
+						<h1>FUTURE</h1>
 						<div>
+							<p style={{ textAlign: 'center', marginBottom: '40px' }}>I will be finishing my degree in May 2021 and seeking full time employment shortly after. Feel free to reach
+							out and connect with me if you're interested in working with me.
+							</p>
 							<p><b>LinkedIn:</b> <a href="https://linkedin.com/in/benoit-ortalo-magne">linkedin.com/benoit_ortalo-magne</a></p>
 							<p><b>Resume: </b> <a href="/Resume.pdf">Resume_2020_pdf</a></p>
 							<p><b>Github: </b> <a href="https://github.com/benoiteom">github.com/benoiteom</a></p>
