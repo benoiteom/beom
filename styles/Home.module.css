@@ -378,15 +378,15 @@ div.contact > div > p > a:hover {
     }
 
     div.about > div > div > h1 {
-        font-size: 18vw;
+        font-size: 14vw;
     }
     div.projects > h1 {
-        font-size: 18vw;
+        font-size: 14vw;
     }
     div.work > h1 {
-        font-size: 18vw;
+        font-size: 14vw;
     }
     div.contact > h1 {
-        font-size: 18vw;
+        font-size: 14vw;
     }
 }

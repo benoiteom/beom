@@ -105,17 +105,14 @@ export default class Home extends Component {
 							<span style={{ position: "absolute", left: '28vw' }} id="Y">Y</span> */}
 						</h1>
 					</div>
-					{/* <img src="/Mountain.png" alt="Mountains" /> */}
-					{/* <img src="/Mountain_back.png" alt="Mountains" />
-					<img src="/Mountain_front.png" alt="Mountains" /> */}
 					<img src="/Mountain_3.png" id="far" alt="Mountains" />
 					<img src="/Mountain_2.png" id="mid" alt="Mountains" />
 					<img src="/Mountain_1.png" id="close" alt="Mountains" />
 					<div className={styles.about} style={this.state.bgcolor}>
 						<div>
 							<div id={styles.abouttxtwrap}>
-								<h1>BEGIN</h1>
-								<p id={styles.abouttxt}>Benoit Ortalo-Magne</p>
+								<h1>START</h1>
+								<p id={styles.abouttxt}>Beno&icirc;t Ortalo-Magn&eacute;</p>
 								<p id={styles.abouttxt}>Senior in Computer Engineering</p>
 							</div>
 							<div id={styles.aboutimgwrap}>
@@ -123,11 +120,11 @@ export default class Home extends Component {
 							</div>
 						</div>
 						<div>
-							<p>I began coding my senior year of high school, starting with HTML / CSS and later moving to Java.
+							<p>I began coding in high school, starting with HTML / CSS and later moving to Java.
 							As a freshman at UIUC I learned to write C / C++ and assembly, but always found myself missing
 							web development. I started looking for opportunities to practice and found a research position
 							writing Angular 4, which reminded me how much fun this could really be. Since then, React has
-								been my chosen language, and I enjoy creating websites in the spare time I have.</p>
+								been my chosen language, and I enjoy creating websites in my spare time.</p>
 						</div>
 					</div>
 					<div className={styles.projects} style={this.state.bgcolor}>
@@ -137,12 +134,12 @@ export default class Home extends Component {
 							<p><b>TENEEZ</b></p>
 							<p><b>Cofounder, Website Team Lead, Frontend Dev</b></p>
 							<p><b>Nov 2019 - Present</b></p>
-							<p>A startup I cofounded with a friend of mine. We rent the latest and hypest sneakers to give people access to the best sneakers without the price tag.</p>
+							<p>A startup I cofounded with a friend. We rent the latest and hypest sneakers to give people access to the best sneakers without the price tag.</p>
 						</div>
 						<div className={styles.projright}>
 							<img src="/MusRover.png" alt='MusRover' id="musroverimg" className={styles.musroverimg} />
 							<p><b>MUS-ROVER</b></p>
-							<p><b>Undergraduate Researcher, Fronted Dev, Design</b></p>
+							<p><b>Undergraduate Researcher, Frontend Dev, Design</b></p>
 							<p><b>Dec 2018 - June 2020</b></p>
 							<p>Researching music intelligence, MUS-ROVER paired with this wep app is the first automatic music theorist that analyzes music from scratch.</p>
 						</div>
